@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Inter|Roboto');
+
+
+* {
+  margin:0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  overflow: hidden; 
+}
+
+body {
+  background-color: hsl(233, 47%, 7%); 
+  color: #fff; 
+}
+
+#root {
+  height: 100vh; 
+  display: flex; 
+  align-items: center; 
+}

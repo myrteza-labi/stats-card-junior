@@ -1,0 +1,42 @@
+.ContentBox {
+    background-color: hsl(244, 38%, 16%); 
+    display: flex; 
+    flex-direction: column; 
+    text-align: center; 
+    padding: 40px 30px 40px 30px; 
+}
+
+.ContentBox h1 {
+    font-family: Arial;
+    padding-bottom: 20px; 
+    font-weight: 700; 
+    font-size: 28px; 
+}
+
+.highligthWord {
+    color: hsl(277, 64%, 61%);
+}
+.ContentBox p.importantText {
+    font-family: Roboto,arial, sans-serif;
+    font-weight: 600; 
+    font-size: 24px; 
+    color: #fff; 
+}
+
+.ContentBox p {
+    font-family: sans-serif, Arial;
+    font-weight: 700; 
+    font-size: 28px; ; 
+    font-size: 16px; 
+    color: hsla(0, 0%, 100%, 0.6); 
+    line-height: 1.7em;
+    font-weight: 100; 
+}
+p.smallUppercase {
+    font-size: 12px; 
+    font-family: Roboto; 
+    letter-spacing: 0.1em; 
+}
+.slogan {
+    padding-bottom: 30px; 
+}

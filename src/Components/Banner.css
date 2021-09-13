@@ -1,0 +1,18 @@
+.Banner {
+    width: 100%; 
+    height: 250px; 
+    background-image: url(../images/image-header-mobile.jpg); 
+    background-size: cover; 
+    position: relative; 
+    overflow: hidden; 
+}
+
+.overlay {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: hsl(277, 70%, 42%); 
+    opacity: 0.5;
+}
