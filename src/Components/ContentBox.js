@@ -11,12 +11,20 @@ function ContentBox(){
                     better decisionsregarding revenue, 
                     customer experience, and overall efficiency.
                 </p>      
-                <p className="importantText"> 10k+</p>      
-                <p className="smallUppercase">COMPANIES</p>
-                <p className="importantText">314</p>      
-                <p className="smallUppercase">TEMPLATES</p>
-                <p className="importantText">12M</p>      
-                <p className="smallUppercase">QUERIES</p>
+                <div className="boxNumber">
+                    <div className="numbers">
+                        <p className="importantText"> 10k+</p>      
+                        <p className="smallUppercase">COMPANIES</p>
+                    </div>
+                    <div className="numbers">
+                        <p className="importantText">314</p>      
+                        <p className="smallUppercase">TEMPLATES</p>
+                    </div>
+                    <div className="numbers">
+                        <p className="importantText">12M</p>      
+                        <p className="smallUppercase">QUERIES</p>
+                    </div>
+                </div>
         </div>
     )
 }

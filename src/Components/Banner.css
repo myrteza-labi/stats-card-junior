@@ -16,3 +16,12 @@
     background: hsl(277, 70%, 42%); 
     opacity: 0.5;
 }
+
+@media screen and (min-width: 1000px) {
+    .Banner {
+        max-height:100%;
+        min-height:100%;
+        min-width: 50%; 
+        order: 2; 
+    }
+}

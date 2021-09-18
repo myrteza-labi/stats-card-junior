@@ -170,4 +170,3 @@ This challenge is completely free. Please share it with anyone who will find it 
 **Have fun building!** 🚀
 
 
-Espacer les phrase dans le contentBox # stats-card-junior

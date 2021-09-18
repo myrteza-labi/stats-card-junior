@@ -10,7 +10,7 @@
     font-family: Arial;
     padding-bottom: 20px; 
     font-weight: 700; 
-    font-size: 28px; 
+    font-size: 1.6em; 
 }
 
 .highligthWord {
@@ -19,7 +19,7 @@
 .ContentBox p.importantText {
     font-family: Roboto,arial, sans-serif;
     font-weight: 600; 
-    font-size: 24px; 
+    font-size: 1.6em; 
     color: #fff; 
 }
 
@@ -27,16 +27,49 @@
     font-family: sans-serif, Arial;
     font-weight: 700; 
     font-size: 28px; ; 
-    font-size: 16px; 
+    font-size: 1em; 
     color: hsla(0, 0%, 100%, 0.6); 
     line-height: 1.7em;
     font-weight: 100; 
 }
 p.smallUppercase {
-    font-size: 12px; 
+    font-size: 0.7em; 
     font-family: Roboto; 
     letter-spacing: 0.1em; 
 }
 .slogan {
-    padding-bottom: 30px; 
+    padding-bottom: 1em; 
 }
+
+@media screen and (min-width: 1000px) {
+    .ContentBox {
+        max-height: 100%; 
+        min-width: 50%; 
+        max-width: 1100px; 
+        height: auto; 
+        padding: 4vh 6vh 4vh 4vh; 
+    }
+    .ContentBox h1 {
+        text-align: left; 
+    }
+    .boxNumber {
+        display: flex; 
+        justify-content: flex-start; 
+    }
+    
+    .numbers {
+        display: flex; 
+        flex-direction: column;
+        margin-right: 4vw;  
+        text-align: left; 
+    }
+    p.slogan {
+        text-align: left; 
+        font-size: 1.1vw;  
+        margin-bottom: 1vw; 
+    }
+    p.smallUppercase {
+        font-size: 0.8vw; 
+    }
+}
+
